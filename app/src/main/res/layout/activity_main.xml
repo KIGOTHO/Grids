@@ -39,6 +39,15 @@
             android:layout_row="0"
             android:layout_column="0" />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="right"
+            android:id="@+id/button2"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="fill_vertical"
+            android:layout_rowSpan="2" />
     </GridLayout>
 
 </RelativeLayout>
